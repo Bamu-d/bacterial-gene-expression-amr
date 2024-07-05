@@ -1,0 +1,20 @@
+# config.yaml
+
+# Sample information
+sample_sheet: "data/samples.tsv"
+
+# Reference genome
+reference_genome: "data/k12.gbk" #set path containing your ref
+reference_type: "gbk"  # Use 'ref' for FASTA or 'gbk' for GenBank
+
+# Directories
+assemblies_dir: "data/strainsfasta"
+
+# Input files
+gene_positions: "data/gene_info.txt"
+
+# Sample for chromosome extraction
+representative_sample: "NT12001_189.fasta"  # Replace with one of your actual sample
+
+# Snippy parameters
+snippy_threads: 4
